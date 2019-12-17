@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://xuyanan-0131.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Dec 2019 09:51:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://xuyanan-0131.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>git studying</title>
+      <link>https://xuyanan-0131.github.io/post/blog/</link>
+      <pubDate>Tue, 17 Dec 2019 09:51:33 +0800</pubDate>
+      
+      <guid>https://xuyanan-0131.github.io/post/blog/</guid>
+      <description>Github git diff --staged //查看已经暂存(add)起来的变化，按下q退出对比; git diff //查看暂存前后的变化 提交更新 git add //跟踪新文件 git commit -m “message” git commit -am &amp;quot;message&amp;quot; //跳过git add步骤，自动把所有已经跟踪过的文件暂存起来一并提交 添加远程仓库 git remote add &amp;lt;shortname&amp;gt; &amp;lt;url&amp;gt; //添加远程仓库，并指定一个轻松引用的简写 git remote -v //显示需要读写远程仓库使用的Git保存的简写与其对应的URL 推送到远程仓库 git push [remote-name] [branch-name] 拉取远程服务器origin的master分支并且整合代码 git pull origin master //git pull相当于 git fetch 跟着一个 git merge FETCH_HEAD ;如果发生了冲突，可以使用git reset --merge进行回退。 创建分支 git branch [branch name] //仅仅创造一个分支，不会自动切换至新分支 git 有一个名为HEAD的特殊指针，指向当前所在的本地分支
+分支切换 git checkout [branch name] //切换至已存在的分支 git log --oneline --decorate --graph --all //输出提交历史、各个分支的指向以及项目的分支分叉情况 git checkout -b [branch name] //新建一个分支并同时切换到那个分支上,是git branch 和git checkout的简写 分支合并 git checkout master //切换至master分支 git merge [branch name] //将branchname的分支与master合并，其实是将master的指针移动到了branchname的指针 git branch -d [branch name] //删除分支 git merge --abort //若合并失败，尝试恢复到你运行合并前的状态，中断合并 git merge -Xignore-space-change [branchname] //忽略所有空白修改 删除提交历史 尝试 运行 git checkout --orphan latest_branch 添加所有文件git add -A 提交更改git commit -am &amp;quot;commit message&amp;quot; 删除分支git branch -D master 将当前分支重命名git branch -m master 最后，强制更新存储库。git push -f origin master 参考：https://blog.</description>
+    </item>
+    
+  </channel>
+</rss>
